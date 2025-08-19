@@ -1,19 +1,13 @@
 # Introduction to Bash & the Command Line
 
 ## Description
-Howdy y'all! This GitHub repository is for participants of [Texas A&M's Open Source for Open Science workshop](https://eeb.tamu.edu/open-source-open-science/open-source-for-open-science-workshop-2025/#:~:text=Welcome%20to%20Ecology%20%26%20Evolutionary%20Biology's,the%20Texas%20A%26M%20University%20campus). This module will be reviewing the basics of Bash and the command-line.
+Howdy y'all! This GitHub repository is for participants of [Texas A&M's Open Source for Open Science workshop](https://eeb.tamu.edu/open-source-open-science/open-source-for-open-science-workshop-2025/#:~:text=Welcome%20to%20Ecology%20%26%20Evolutionary%20Biology's,the%20Texas%20A%26M%20University%20campus).
 
-Bash (Bourne-Again SHell) is a Unix shell and command language. Bash allows us to control our operating system through the command-line. This module will likely be most relevant to users who need to run software on their personal computers that require using the command-line or users of the supercomputer.
+This module will be covering the basics of Bash and command-line.
 
-Before we begin, let's quickly go over some definitions:
+Bash (Bourne-Again SHell) is a Unix shell and command language. Bash allows us to contorl our operating system and perform tasks, often with just a couple commands or lines of codes. Bash is especially useful when users are interested in automating repetitive tasks.
 
-**Shell** - a program that processes that commands that you provide and outputs the results (such as Bash!)
-
-**Command line** - an interface that accepts commands.
-
-**Terminal** - a program that runs the shell and allows us to enter commands.
-
-**Console** - a type of terminal, in which your programs are active (think Xbox!)
+For this module, I have adapted many of the resources available for the Unix Shell module published by [Software Carpentry](https://swcarpentry.github.io/shell-novice/index.html).
 
 ## Objectives
 1. Understand the necessity for, and use of, the command line
@@ -21,8 +15,20 @@ Before we begin, let's quickly go over some definitions:
 3. Utilize basic operations (e.g., move, create, copy, and rename)
 
 ## Before the module
-Because each person will be using a different operating system (Windows, Mac, Linux), we need to standardize our "environment." In order to do so, we will be utilizing [Google's Cloud Shell](https://shell.cloud.google.com/?show=ide%2Cterminal). Google Cloud Shell should be accessible using your TAMU affilitated email.
+Because each person will be using a different operating system (Windows, MacOS, Linux), we need to standardize our "environment."
 
-For those of you who plan to utilize bash much more frequently, I encourage you to download a UNIX terminal (if you are using a Mac or Linux, it is automatically available) and a text editor.
+### Windows Users
+Computers with a Windows operating systems do not come with a Unix shell installed. Therefore, you will need to install a Unix shell onto your computer, for which you have a few options:
+#### Option 1 (recommended): 
+You can install [Git for Windows](https://carpentries.github.io/workshop-template/install_instructions/#shell). Git for Windows gives you access to both Bash and [Git](https://clevercoderjoy.hashnode.dev/eli5-git-the-version-control-systemvcs). Git, at its core, is simply a software that can track different versions of files created by multiple users. It is often used by programmers who are developing software collaboratively.
+#### Option 2:
+You can install [Windows Subsystem for Linux v2 (“WSL 2”)](https://carpentries.github.io/workshop-template/install_instructions/#shell). 
 
-If you have any questions or concerns prior to the module, please contact me.
+### MacOS Users
+Congrats! Older Mac computers (Mojave and earlier releases) use Bash, and newer computers (Catalina and later releases) use Zsh. Bash and Zsh are very similar in their functionality, so you should be _good to go_. To access the shell, you need to open the Terminal program.
+
+### Linux Users
+Congrats! The default Unix shell is almost, always, Bash for Linux operating systems. Therefore, you should not need to install anything.
+
+
+**If you have any questions prior to the module, please contact me.**
