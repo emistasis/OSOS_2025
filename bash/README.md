@@ -1,6 +1,6 @@
 # Introduction to Bash & the Command Line
 
-## Description
+## Overview
 Howdy y'all! This GitHub repository is for participants of [Texas A&M's Open Source for Open Science workshop](https://eeb.tamu.edu/open-source-open-science/open-source-for-open-science-workshop-2025/#:~:text=Welcome%20to%20Ecology%20%26%20Evolutionary%20Biology's,the%20Texas%20A%26M%20University%20campus).
 
 This module will be covering the basics of Bash and command-line.
@@ -14,7 +14,7 @@ For this module, I have adapted many of the resources available for the Unix She
 2. Learn how to navigate file systems and explore file contents
 3. Utilize basic operations (e.g., move, create, copy, and rename)
 
-## Before the module
+## Getting Started
 Because each person will be using a different operating system (Windows, MacOS, Linux), we need to standardize our "environment."
 
 ### Windows Users
@@ -28,7 +28,4 @@ You can install [Windows Subsystem for Linux v2 (“WSL 2”)](https://carpentri
 Congrats! Older Mac computers (Mojave and earlier releases) use Bash, and newer computers (Catalina and later releases) use Zsh. Bash and Zsh are very similar in their functionality, so you should be _good to go_. To access the shell, you need to open the Terminal program.
 
 ### Linux Users
-Congrats! The default Unix shell is almost, always, Bash for Linux operating systems. Therefore, you should not need to install anything.
-
-
-**If you have any questions prior to the module, please contact me.**
+Congrats! The default Unix shell is almost always Bash for Linux operating systems. Therefore, you should not need to install anything.
