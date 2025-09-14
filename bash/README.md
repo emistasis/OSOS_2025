@@ -10,7 +10,7 @@ Bash (Bourne-Again SHell) is a Unix shell and command language. Bash allows us t
 
 For this module, I have adapted many of the resources available for the Unix Shell module published by [Software Carpentry](https://swcarpentry.github.io/shell-novice/index.html).
 
-You can access the (Google Drive here)[https://drive.google.com/drive/folders/19aCnqWP3KI0nLcazQt_rTm8Gm7ybFmna]. The Google Drive includes the same information that can be accessed in this GitHub except in PDF format instead.
+You can access the [Google Drive here](https://drive.google.com/drive/folders/19aCnqWP3KI0nLcazQt_rTm8Gm7ybFmna). The Google Drive includes the same information that can be accessed in this GitHub except in PDF format instead.
 
 ## Objectives
 
